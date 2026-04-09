@@ -1010,136 +1010,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text_box "BIAS REFERENCE"
 		(exclude_from_sim no)
 		(at 132.08 62.23 0)
-		(size 95.25 71.12)
+		(size 100.33 71.12)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1183,16 +1058,22 @@
 		(uuid "1dd35ec8-48a7-4843-8b83-634f3acda295")
 	)
 	(junction
-		(at 185.42 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b4bb0ff-19b4-49ad-94b6-4b7f5d626afc")
-	)
-	(junction
 		(at 85.09 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "319c73e2-4a62-4465-837d-778ba2bf0892")
+	)
+	(junction
+		(at 185.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff8bc6a-bf67-450b-bb28-c3f367cbb9c1")
+	)
+	(junction
+		(at 185.42 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "680ca30f-3713-41dd-8e5a-f06ca8a3ddfa")
 	)
 	(junction
 		(at 162.56 86.36)
@@ -1201,19 +1082,13 @@
 		(uuid "9604baf0-2ef1-4823-a896-7bea0295be5b")
 	)
 	(junction
-		(at 212.09 110.49)
+		(at 218.44 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aed2bdd5-9e44-4809-8b8a-daa33a02c12a")
 	)
 	(junction
-		(at 185.42 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d111d7cd-3451-49cd-9ff0-a68d75aee74a")
-	)
-	(junction
-		(at 212.09 90.17)
+		(at 218.44 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9162126-14c7-40c8-88c9-c6730fa6b120")
@@ -1346,7 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 90.17) (xy 212.09 90.17)
+			(xy 210.82 90.17) (xy 218.44 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1251,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 104.14) (xy 204.47 110.49)
+			(xy 210.82 104.14) (xy 210.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +1261,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 90.17) (xy 212.09 92.71)
+			(xy 218.44 90.17) (xy 218.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1403,6 +1278,16 @@
 			(type default)
 		)
 		(uuid "5b213bf3-8751-4824-ac90-5d5f0b6aa4af")
+	)
+	(wire
+		(pts
+			(xy 185.42 113.03) (xy 187.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b200e2e-559c-4855-9a7d-72d98416e0c5")
 	)
 	(wire
 		(pts
@@ -1436,7 +1321,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 110.49) (xy 212.09 113.03)
+			(xy 218.44 110.49) (xy 218.44 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1456,16 +1341,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 185.42 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "973024e0-c9e6-48f6-b7d8-8a33fd92ade7")
-	)
-	(wire
-		(pts
 			(xy 165.1 101.6) (xy 185.42 101.6)
 		)
 		(stroke
@@ -1476,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 96.52) (xy 204.47 90.17)
+			(xy 210.82 96.52) (xy 210.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1361,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 87.63) (xy 212.09 90.17)
+			(xy 185.42 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add60720-6c86-4c1a-a283-f944dd58324e")
+	)
+	(wire
+		(pts
+			(xy 218.44 87.63) (xy 218.44 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1391,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 110.49) (xy 212.09 110.49)
+			(xy 210.82 110.49) (xy 218.44 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 110.49) (xy 212.09 107.95)
+			(xy 218.44 110.49) (xy 218.44 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1614,15 +1499,49 @@
 		)
 		(uuid "f28245dd-f8aa-4072-b172-163ecd684cc9")
 	)
-	(wire
-		(pts
-			(xy 185.42 110.49) (xy 185.42 113.03)
+	(global_label "VBIAS_OUT"
+		(shape input)
+		(at 187.96 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "32cf2445-18e9-4fd9-ae29-9f69b0e1f7b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8029 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
 		)
-		(uuid "fee73f37-165b-4372-b82c-25a17b79a7dc")
+	)
+	(global_label "VBIAS_IN"
+		(shape input)
+		(at 187.96 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83750e18-193c-4899-b744-3e7b4bd260ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.1096 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1634,7 +1553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06dcea72-28f6-47a5-9dfc-3e503f476cea")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 85.09 111.76 0)
 			(effects
 				(font
@@ -1684,7 +1603,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1700,7 +1619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11462c76-985c-4542-a81e-bd214252636d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -1750,7 +1669,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1906,7 +1825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f900815-669e-4218-a5c5-9b940dedfbea")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 157.48 77.47 0)
 			(effects
 				(font
@@ -1956,7 +1875,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2050,7 +1969,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 212.09 87.63 0)
+		(at 218.44 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2058,8 +1977,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c567f2d-19bb-4e4b-a708-3caef519e9b9")
-		(property "Reference" "#PWR014"
-			(at 212.09 91.44 0)
+		(property "Reference" "#PWR013"
+			(at 218.44 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +1987,7 @@
 			)
 		)
 		(property "Value" "+3V3A"
-			(at 212.09 82.55 0)
+			(at 218.44 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +1995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 87.63 0)
+			(at 218.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 87.63 0)
+			(at 218.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 212.09 87.63 0)
+			(at 218.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2027,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2350,7 +2269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a17e837-2869-49c4-9ae1-2542fd0c07c6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -2400,73 +2319,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 185.42 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "909aaf2a-fcb1-46ff-b34b-c95ae0b35385")
-		(property "Reference" "#PWR013"
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBIAS_OUT"
-			(at 185.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 185.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cf24ef6-c02f-4e30-99da-fc2cfb8d30d4")
-		)
-		(instances
-			(project "SimpleCodec"
-				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2544,7 +2397,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 100.33 0)
+		(at 210.82 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2553,7 +2406,7 @@
 		(dnp no)
 		(uuid "b2ddf058-b5fa-4876-9e8d-61d90862a092")
 		(property "Reference" "C4"
-			(at 200.66 99.0599 0)
+			(at 207.01 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2415,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 200.66 101.5999 0)
+			(at 207.01 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2424,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 203.5048 104.14 0)
+			(at 209.8548 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 100.33 0)
+			(at 210.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2442,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 100.33 0)
+			(at 210.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38a6936-31b5-44ad-9891-1089cd187783")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 95.25 111.76 0)
 			(effects
 				(font
@@ -2672,7 +2525,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2759,7 +2612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94ca7b5-aad9-4c6f-8b0b-65b680b37464")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -2809,7 +2662,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2825,7 +2678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3bb7abb-26cc-419a-a0ee-a39823917a9c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 157.48 105.41 0)
 			(effects
 				(font
@@ -2875,7 +2728,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8427834-ba2f-414a-b8db-35b75fd46a0d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 105.41 111.76 0)
 			(effects
 				(font
@@ -2941,7 +2794,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2949,7 +2802,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 113.03 0)
+		(at 218.44 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2957,8 +2810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead6757f-0147-4e3f-8646-56771c0dd84e")
-		(property "Reference" "#PWR015"
-			(at 212.09 119.38 0)
+		(property "Reference" "#PWR014"
+			(at 218.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 118.11 0)
+			(at 218.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +2828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 113.03 0)
+			(at 218.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 113.03 0)
+			(at 218.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 113.03 0)
+			(at 218.44 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +2860,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3015,7 +2868,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 214.63 100.33 0)
+		(at 220.98 100.33 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3024,7 +2877,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb612d1c-624a-44db-b44a-8b5c756aecda")
 		(property "Reference" "U2"
-			(at 213.36 99.0599 0)
+			(at 219.71 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +2886,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 213.36 101.5999 0)
+			(at 219.71 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 214.63 100.33 0)
+			(at 220.98 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 214.63 100.33 0)
+			(at 220.98 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 214.63 100.33 0)
+			(at 220.98 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,72 +2950,6 @@
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
 					(reference "U2")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 185.42 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2fd47c4-e4cc-4677-93f7-2a239842c480")
-		(property "Reference" "#PWR012"
-			(at 185.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBIAS_IN"
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 185.42 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d30b2c04-de93-493b-bd33-654ab9ceba65")
-		)
-		(instances
-			(project "SimpleCodec"
-				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR012")
-					(unit 1)
 				)
 			)
 		)

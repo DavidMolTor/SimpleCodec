@@ -584,6 +584,10 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "+5V",
+        "pattern": "+5V"
+      },
+      {
         "netclass": "+3V3A",
         "pattern": "+3V3A"
       },
@@ -596,16 +600,12 @@
         "pattern": "GND"
       },
       {
-        "netclass": "I2C",
-        "pattern": "/SDA"
+        "netclass": "I2S",
+        "pattern": "I2S*"
       },
       {
         "netclass": "I2C",
-        "pattern": "/SCL"
-      },
-      {
-        "netclass": "+5V",
-        "pattern": "+5V"
+        "pattern": "I2C*"
       }
     ]
   },

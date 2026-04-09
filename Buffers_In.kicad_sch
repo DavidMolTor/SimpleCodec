@@ -1057,131 +1057,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text_box "LEFT CHANNEL BUFFER"
 		(exclude_from_sim no)
@@ -1550,6 +1425,16 @@
 			(type default)
 		)
 		(uuid "17a7704f-d3c2-427a-b14b-ddc8562aab6f")
+	)
+	(wire
+		(pts
+			(xy 168.91 111.76) (xy 171.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a909fe-bc6e-48fd-bdf2-389a275de25e")
 	)
 	(wire
 		(pts
@@ -2143,6 +2028,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8d91ab-d503-4bda-8d97-a2eec007bda3")
+	)
+	(wire
+		(pts
 			(xy 113.03 124.46) (xy 115.57 124.46)
 		)
 		(stroke
@@ -2190,6 +2085,16 @@
 			(type default)
 		)
 		(uuid "af823e01-b221-4a0f-92a7-38eb7137d11f")
+	)
+	(wire
+		(pts
+			(xy 113.03 39.37) (xy 115.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32614c5-2cd6-4aa1-99ba-b088aff1782f")
 	)
 	(wire
 		(pts
@@ -2383,6 +2288,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23571c9-b803-4a07-ad18-dad930164ab3")
+	)
+	(wire
+		(pts
 			(xy 191.77 59.69) (xy 191.77 72.39)
 		)
 		(stroke
@@ -2461,6 +2376,72 @@
 		)
 		(uuid "b52f6af3-0878-4bfc-a81f-35229e2c9845")
 	)
+	(global_label "VBIAS_IN"
+		(shape input)
+		(at 113.03 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2419ae23-f87b-446c-b2d4-8ce8b0dadda2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8804 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBIAS_IN"
+		(shape input)
+		(at 168.91 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90bb716c-15a3-4484-97fd-d22cf0f7f96a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.7604 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBIAS_IN"
+		(shape input)
+		(at 168.91 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6c69f16-8284-4a29-85a2-c0ab3079ad24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.7604 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CODEC_INR"
 		(shape input)
 		(at 214.63 129.54 0)
@@ -2505,6 +2486,28 @@
 			)
 		)
 	)
+	(global_label "VBIAS_IN"
+		(shape input)
+		(at 113.03 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fee9cfff-1ee9-4206-84a2-04d9f16c27bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8804 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 259.08 113.03 0)
@@ -2515,7 +2518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00706a2e-46ef-4121-a6d0-d6ab1c2637a8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR026"
 			(at 259.08 116.84 0)
 			(effects
 				(font
@@ -2565,7 +2568,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR031")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2581,7 +2584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cad39b9-fb9f-471b-903c-83edb0f39b14")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -2631,7 +2634,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2805,7 +2808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2726bef9-1b48-4b01-ba5c-dcbf6cd4cea9")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 92.71 143.51 0)
 			(effects
 				(font
@@ -2855,7 +2858,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3079,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40da77ce-8ae8-4539-98be-ddf477609d47")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 148.59 146.05 0)
 			(effects
 				(font
@@ -3129,7 +3132,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3282,7 +3285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "486f8d7a-b87c-415f-b9f9-bfcebe63d77e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 158.75 76.2 0)
 			(effects
 				(font
@@ -3332,7 +3335,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3348,7 +3351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be62d96-c235-42fb-a7d4-e46a9953547b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 41.91 104.14 0)
 			(effects
 				(font
@@ -3398,73 +3401,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 115.57 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "531f0bef-e09b-4d0a-acc0-ad40774351ef")
-		(property "Reference" "#PWR021"
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBIAS_IN"
-			(at 115.57 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 115.57 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76ad8923-0840-40b5-9405-ffd987a39555")
-		)
-		(instances
-			(project "SimpleCodec"
-				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR021")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 201.93 58.7248 0)
 			(effects
 				(font
@@ -3677,138 +3614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 171.45 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e1cd8dd-8c73-45f8-99c7-8d264d7a6855")
-		(property "Reference" "#PWR028"
-			(at 171.45 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBIAS_IN"
-			(at 171.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 171.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62d78909-38f2-4180-8558-897676bad599")
-		)
-		(instances
-			(project "SimpleCodec"
-				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 171.45 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ec3b245-4176-4e20-b6f3-30b39667b84f")
-		(property "Reference" "#PWR027"
-			(at 171.45 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBIAS_IN"
-			(at 171.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d483308a-e236-489b-8ca5-2f4d9487b94b")
-		)
-		(instances
-			(project "SimpleCodec"
-				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 137.16 0)
 		(unit 1)
@@ -3818,7 +3623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745ac242-f01e-40b3-a159-b15a00278795")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 102.87 143.51 0)
 			(effects
 				(font
@@ -3868,7 +3673,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3900,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 201.93 128.5748 0)
 			(effects
 				(font
@@ -4068,25 +3873,25 @@
 			)
 		)
 		(pin "7"
-			(uuid "2df498d9-abb7-429d-8b4e-d9f9aa4f08eb")
+			(uuid "2df498d9-abb7-429d-8b4e-d9f9aa4f08ec")
 		)
 		(pin "3"
-			(uuid "843c2ca9-aac7-4ee6-84a7-13f8d7f8f505")
+			(uuid "843c2ca9-aac7-4ee6-84a7-13f8d7f8f506")
 		)
 		(pin "5"
-			(uuid "056a0f5b-6530-4fa2-95ef-fc9a1051df1c")
+			(uuid "056a0f5b-6530-4fa2-95ef-fc9a1051df1d")
 		)
 		(pin "2"
-			(uuid "9dfd1baa-875f-44a2-a182-cef614124d97")
+			(uuid "9dfd1baa-875f-44a2-a182-cef614124d98")
 		)
 		(pin "4"
 			(uuid "7a81a088-b36a-44c8-bdf1-dbb855eb6625")
 		)
 		(pin "1"
-			(uuid "1b84dd6e-b011-419b-a750-4fee3bf506bd")
+			(uuid "1b84dd6e-b011-419b-a750-4fee3bf506be")
 		)
 		(pin "6"
-			(uuid "881b7cd8-6d51-4762-8549-b8302349f264")
+			(uuid "881b7cd8-6d51-4762-8549-b8302349f265")
 		)
 		(pin "8"
 			(uuid "d16a80bf-8bac-4e50-9713-b7a1fd8e26ee")
@@ -4128,7 +3933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 103.8352 64.77 0)
 			(effects
 				(font
@@ -4284,7 +4089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 67.31 0)
 			(effects
 				(font
@@ -4352,7 +4157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 168.91 126.0348 0)
 			(effects
 				(font
@@ -4420,7 +4225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.03 53.6448 0)
 			(effects
 				(font
@@ -4472,7 +4277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9366ebf6-78ab-46fa-a8aa-360697ffa138")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR024"
 			(at 259.08 46.99 0)
 			(effects
 				(font
@@ -4522,7 +4327,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR029")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4678,7 +4483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5caa17-d0e8-45b3-9a51-b1f1426bca9e")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 102.87 73.66 0)
 			(effects
 				(font
@@ -4728,7 +4533,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4898,7 +4703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 103.8352 134.62 0)
 			(effects
 				(font
@@ -5011,72 +4816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 115.57 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b93dbd89-8249-4cbf-85d3-097e4b3c7035")
-		(property "Reference" "#PWR022"
-			(at 115.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBIAS_IN"
-			(at 115.57 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 115.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60b77040-ef5d-4194-b84e-9b1f2b476130")
-		)
-		(instances
-			(project "SimpleCodec"
-				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 142.24 127 90)
 		(unit 1)
@@ -5154,7 +4893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ba2528-a094-42fe-9d2a-bd592898bab1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR025"
 			(at 259.08 74.93 0)
 			(effects
 				(font
@@ -5204,7 +4943,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR030")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5238,7 +4977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 137.16 0)
 			(effects
 				(font
@@ -5376,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.03 123.4948 0)
 			(effects
 				(font
@@ -5472,28 +5211,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "2df498d9-abb7-429d-8b4e-d9f9aa4f08ee")
+			(uuid "2df498d9-abb7-429d-8b4e-d9f9aa4f08ef")
 		)
 		(pin "3"
 			(uuid "843c2ca9-aac7-4ee6-84a7-13f8d7f8f507")
 		)
 		(pin "5"
-			(uuid "056a0f5b-6530-4fa2-95ef-fc9a1051df1f")
+			(uuid "056a0f5b-6530-4fa2-95ef-fc9a1051df20")
 		)
 		(pin "2"
 			(uuid "9dfd1baa-875f-44a2-a182-cef614124d99")
 		)
 		(pin "4"
-			(uuid "7a81a088-b36a-44c8-bdf1-dbb855eb6628")
+			(uuid "7a81a088-b36a-44c8-bdf1-dbb855eb6629")
 		)
 		(pin "1"
 			(uuid "1b84dd6e-b011-419b-a750-4fee3bf506bf")
 		)
 		(pin "6"
-			(uuid "881b7cd8-6d51-4762-8549-b8302349f267")
+			(uuid "881b7cd8-6d51-4762-8549-b8302349f268")
 		)
 		(pin "8"
-			(uuid "d16a80bf-8bac-4e50-9713-b7a1fd8e26f1")
+			(uuid "d16a80bf-8bac-4e50-9713-b7a1fd8e26f2")
 		)
 		(instances
 			(project "SimpleCodec"
@@ -5513,7 +5252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed023d09-e3f5-4559-bb1a-b035e00ff866")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -5563,7 +5302,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5579,7 +5318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eecc01a7-c33f-4720-8aae-ccba6a77700d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR027"
 			(at 259.08 144.78 0)
 			(effects
 				(font
@@ -5629,7 +5368,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR032")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5769,28 +5508,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "2df498d9-abb7-429d-8b4e-d9f9aa4f08ef")
+			(uuid "2df498d9-abb7-429d-8b4e-d9f9aa4f08f0")
 		)
 		(pin "3"
 			(uuid "843c2ca9-aac7-4ee6-84a7-13f8d7f8f509")
 		)
 		(pin "5"
-			(uuid "056a0f5b-6530-4fa2-95ef-fc9a1051df20")
+			(uuid "056a0f5b-6530-4fa2-95ef-fc9a1051df21")
 		)
 		(pin "2"
 			(uuid "9dfd1baa-875f-44a2-a182-cef614124d9b")
 		)
 		(pin "4"
-			(uuid "7a81a088-b36a-44c8-bdf1-dbb855eb6629")
+			(uuid "7a81a088-b36a-44c8-bdf1-dbb855eb662a")
 		)
 		(pin "1"
 			(uuid "1b84dd6e-b011-419b-a750-4fee3bf506c1")
 		)
 		(pin "6"
-			(uuid "881b7cd8-6d51-4762-8549-b8302349f268")
+			(uuid "881b7cd8-6d51-4762-8549-b8302349f269")
 		)
 		(pin "8"
-			(uuid "d16a80bf-8bac-4e50-9713-b7a1fd8e26f2")
+			(uuid "d16a80bf-8bac-4e50-9713-b7a1fd8e26f3")
 		)
 		(instances
 			(project "SimpleCodec"
@@ -5858,25 +5597,25 @@
 			(uuid "81a734f9-2651-4347-a329-4d0c4cc21c34")
 		)
 		(pin "3"
-			(uuid "843c2ca9-aac7-4ee6-84a7-13f8d7f8f509")
+			(uuid "843c2ca9-aac7-4ee6-84a7-13f8d7f8f50a")
 		)
 		(pin "5"
 			(uuid "d8daa03e-fd90-413e-8fba-49a6214c2eb0")
 		)
 		(pin "2"
-			(uuid "9dfd1baa-875f-44a2-a182-cef614124d9b")
+			(uuid "9dfd1baa-875f-44a2-a182-cef614124d9c")
 		)
 		(pin "4"
-			(uuid "7a81a088-b36a-44c8-bdf1-dbb855eb6629")
+			(uuid "7a81a088-b36a-44c8-bdf1-dbb855eb662b")
 		)
 		(pin "1"
-			(uuid "1b84dd6e-b011-419b-a750-4fee3bf506c1")
+			(uuid "1b84dd6e-b011-419b-a750-4fee3bf506c2")
 		)
 		(pin "6"
 			(uuid "d4c0e229-aa6e-435b-973a-57da072437f5")
 		)
 		(pin "8"
-			(uuid "d16a80bf-8bac-4e50-9713-b7a1fd8e26f2")
+			(uuid "d16a80bf-8bac-4e50-9713-b7a1fd8e26f4")
 		)
 		(instances
 			(project "SimpleCodec"
@@ -5897,7 +5636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f63b6b17-4241-4d6f-a598-6ef1deb0fed9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 158.75 146.05 0)
 			(effects
 				(font
@@ -5947,7 +5686,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/469e8ad1-854f-4ea5-8b66-be90c8cb100f"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 168.91 56.1848 0)
 			(effects
 				(font
