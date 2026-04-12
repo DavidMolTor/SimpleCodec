@@ -598,8 +598,40 @@
         "pattern": "+VCC_FILT*"
       },
       {
+        "netclass": "PWRA",
+        "pattern": "/Codec/V*"
+      },
+      {
         "netclass": "PWRGND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "I2S",
+        "pattern": "I2S*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "I2C*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "CODEC_IN*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "CODEC_OUT*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/Codec/IN*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/Buffers_In/AUDIO*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/Buffers_Out/AUDIO*"
       }
     ]
   },

@@ -1110,6 +1110,12 @@
 		(uuid "72577a84-e4b6-44cb-b01c-90cbde9233e8")
 	)
 	(junction
+		(at 93.98 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d041273-8e29-466d-a1d9-31a7fdcb6df5")
+	)
+	(junction
 		(at 166.37 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1156,6 +1162,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "602f6fcb-84f9-47d7-97a1-67d8cbaa90d7")
+	)
+	(junction
+		(at 102.87 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "644bd54e-38df-49b6-95e5-faa4e5ea57c5")
 	)
 	(junction
 		(at 167.64 69.85)
@@ -1233,6 +1245,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 100.33) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fcd85d-8e79-404d-8b3c-c51fd28e81a3")
+	)
+	(wire
+		(pts
 			(xy 179.07 60.96) (xy 179.07 59.69)
 		)
 		(stroke
@@ -1270,6 +1292,16 @@
 			(type default)
 		)
 		(uuid "0a5a05b7-f1f1-4be4-837a-b88d031b4c4c")
+	)
+	(wire
+		(pts
+			(xy 93.98 110.49) (xy 93.98 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b585fbf-97ed-4ef3-b751-843a86a1702d")
 	)
 	(wire
 		(pts
@@ -1453,6 +1485,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 100.33) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3977bb28-a56d-4b64-8853-c38258a1cb82")
+	)
+	(wire
+		(pts
 			(xy 152.4 123.19) (xy 165.1 123.19)
 		)
 		(stroke
@@ -1520,6 +1562,16 @@
 			(type default)
 		)
 		(uuid "50c19887-3d17-4ff2-a9dc-e159584fb9c1")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 102.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eef5e1c-c508-41a9-acdd-00722b904c25")
 	)
 	(wire
 		(pts
@@ -1633,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 115.57) (xy 121.92 115.57)
+			(xy 91.44 115.57) (xy 93.98 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1733,6 +1785,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 115.57) (xy 121.92 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f27b87c-e967-4258-b27d-695e78110abf")
+	)
+	(wire
+		(pts
 			(xy 139.7 50.8) (xy 139.7 82.55)
 		)
 		(stroke
@@ -1763,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.11) (xy 121.92 118.11)
+			(xy 91.44 118.11) (xy 102.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1900,6 +1962,16 @@
 			(type default)
 		)
 		(uuid "d6caaa85-6dbe-4eed-a40f-b629316a3c35")
+	)
+	(wire
+		(pts
+			(xy 102.87 118.11) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9916736-f5ad-42b3-a7f1-4d19ab63fd7c")
 	)
 	(wire
 		(pts
@@ -2081,6 +2153,26 @@
 		)
 		(uuid "df8ffb18-b2d9-4611-8a81-1c30496dd416")
 	)
+	(label "AMUTEC"
+		(at 175.26 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e625f1bc-c9bf-48a5-8e07-6e7445a7d195")
+	)
+	(label "BMUTEC"
+		(at 175.26 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e88541d9-1a31-4b87-970d-bfb0fd6e3e0c")
+	)
 	(global_label "CODEC_OUTR-"
 		(shape input)
 		(at 154.94 110.49 0)
@@ -2193,7 +2285,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 119.38 118.11 180)
+		(at 91.44 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2203,7 +2295,7 @@
 		)
 		(uuid "5cfc7cb1-ebe4-4082-b965-d805a86bbe79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7748 118.11 0)
+			(at 80.8348 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2307,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 119.38 115.57 180)
+		(at 91.44 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2225,7 +2317,7 @@
 		)
 		(uuid "62a40abc-6879-4861-8a8d-b46dd49f2064")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8353 115.57 0)
+			(at 80.8953 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0131fe70-d6c3-4777-bd60-cc8baae8c128")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 102.87 53.34 0)
 			(effects
 				(font
@@ -2449,7 +2541,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2520,6 +2612,72 @@
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d10df49-90e8-4410-86c5-94501f7a5510")
+		(property "Reference" "#PWR02"
+			(at 102.87 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3D"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cf03227-6af5-479d-96e6-fbe944f81775")
+		)
+		(instances
+			(project "SimpleCodec"
+				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2683,7 +2841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db85d24-f7bd-416d-a9dc-1079b40a878c")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 187.96 88.9 0)
 			(effects
 				(font
@@ -2733,7 +2891,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2887,7 +3045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42569ded-f271-401d-8a4f-a32d1b72cf9b")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 102.87 72.39 0)
 			(effects
 				(font
@@ -2937,7 +3095,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2954,7 +3112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44ef9715-12ce-4bf2-8ee3-c4041ef8fb7c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 93.98 88.9 0)
 			(effects
 				(font
@@ -3004,7 +3162,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3089,7 +3247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "510fb3df-bcdc-4707-b273-d80b1a8f382d")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -3139,7 +3297,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3155,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "551f93e5-e577-4758-8e9d-3dcc27dada06")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 177.8 116.84 0)
 			(effects
 				(font
@@ -3205,7 +3363,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6486b952-8e5f-432d-8e18-731de706f4b9")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 165.1 144.78 0)
 			(effects
 				(font
@@ -3271,7 +3429,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3356,7 +3514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694e07b2-c80a-4c94-b227-d7ea1243bfb4")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 177.8 144.78 0)
 			(effects
 				(font
@@ -3406,7 +3564,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3422,7 +3580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "698926dc-e5ee-4d7a-8ef0-8f7d44193a62")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 139.7 144.78 0)
 			(effects
 				(font
@@ -3472,7 +3630,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3488,7 +3646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7389c81f-5b92-4d24-86fe-1415ceed131d")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 179.07 53.34 0)
 			(effects
 				(font
@@ -3538,7 +3696,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "838e8da6-f765-47bc-bf96-027de7a5dcff")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 119.38 144.78 0)
 			(effects
 				(font
@@ -3604,7 +3762,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3620,7 +3778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e1c14a4-12b5-4017-b637-a619ba546c33")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 180.34 102.8699 0)
 			(effects
 				(font
@@ -3674,7 +3832,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3690,7 +3848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92065b2c-e3eb-4bf5-94ad-9a8326c68c4e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 187.96 69.85 0)
 			(effects
 				(font
@@ -3740,7 +3898,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3818,6 +3976,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 102.87 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9941c148-bd57-4999-8c07-d2c43c060ca7")
+		(property "Reference" "R2"
+			(at 100.33 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47K"
+			(at 100.33 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.648 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6c9ee97-3ae7-4e68-916d-d5a365c045e6")
+		)
+		(pin "2"
+			(uuid "8e7eadb9-43da-4d5c-81ff-93ace20c7ca3")
+		)
+		(instances
+			(project "SimpleCodec"
+				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 187.96 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3826,7 +4054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bea492c-811a-481b-99e1-508e6c50b2e0")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 190.5 102.8699 0)
 			(effects
 				(font
@@ -3880,7 +4108,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3897,7 +4125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa24fe99-3644-4ff5-8902-5db0d24e5601")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -3947,7 +4175,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4017,6 +4245,76 @@
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0ad111a-7d07-4fef-89a1-6c3a60c31d1f")
+		(property "Reference" "R1"
+			(at 91.44 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47K"
+			(at 91.44 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.758 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef3e2f72-7dcd-4a4c-a09d-70a7f51d00ea")
+		)
+		(pin "2"
+			(uuid "2d5ea5c5-1a05-4160-ba53-ae800327d686")
+		)
+		(instances
+			(project "SimpleCodec"
+				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4156,6 +4454,72 @@
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb6ee5bf-e459-4c2a-89b7-dbca9f7ed5ab")
+		(property "Reference" "#PWR01"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3D"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62406431-5b47-49c8-a009-f60cd6321b8a")
+		)
+		(instances
+			(project "SimpleCodec"
+				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/f7920eb9-f1f4-4882-8d74-32484732cce5"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

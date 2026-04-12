@@ -265,31 +265,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Jack-DC"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Custom_Parts:PEDAL_COMBO_TOP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
+			(property "Reference" "X"
+				(at -8.128 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Jack-DC"
-				(at 0 -5.08 0)
+			(property "Value" "PEDAL_COMBO_TOP"
+				(at -8.128 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
+			(property "Footprint" "Custom_Parts:PEDAL_COMBO_TOP"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -298,15 +297,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack"
 				(at 0 0 0)
 				(effects
 					(font
@@ -315,7 +305,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DC power barrel jack connector"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -324,7 +314,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "BarrelJack*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -333,13 +331,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jack-DC_0_1"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PEDAL_COMBO_TOP_1_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -351,61 +358,47 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
+					(start -3.302 3.175)
+					(end 3.683 1.905)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Jack-DC_1_1"
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -435,6 +428,486 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PEDAL_COMBO_TOP_2_1"
+				(rectangle
+					(start -5.08 -3.81)
+					(end -3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.81) (xy 0 -4.445) (xy 0.635 -3.81) (xy 0.635 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.096) (xy 0.254 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.905 -4.445) (xy 2.54 -3.81) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -4.064) (xy 3.302 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy -1.27 6.35) (xy -1.27 -3.81) (xy -1.905 -4.445) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 0 3.81) (xy 0 6.096) (xy -0.254 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.778 -1.27) (xy 1.778 1.016) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 3.048 -6.35) (xy 3.048 -4.064) (xy 2.794 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 8.89 6.35 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SNI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 1.27 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RNI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -6.35 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TNI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PEDAL_COMBO_TOP_3_1"
+				(rectangle
+					(start -5.08 -3.81)
+					(end -3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.81) (xy 0 -4.445) (xy 0.635 -3.81) (xy 0.635 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.096) (xy 0.254 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.905 -4.445) (xy 2.54 -3.81) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -4.064) (xy 3.302 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy -1.27 6.35) (xy -1.27 -3.81) (xy -1.905 -4.445) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 0 3.81) (xy 0 6.096) (xy -0.254 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 1.778 -1.27) (xy 1.778 1.016) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 3.048 -6.35) (xy 3.048 -4.064) (xy 2.794 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 8.89 6.35 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SNO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 1.27 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RNO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -6.35 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TNO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3928,7 +4401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10ec39b2-60d1-44ca-a704-c8e106b7ca66")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 88.9 52.07 0)
 			(effects
 				(font
@@ -3978,7 +4451,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3994,7 +4467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1449bc98-1f43-44f3-b35d-1bb580251485")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 224.79 48.2599 0)
 			(effects
 				(font
@@ -4048,7 +4521,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4201,7 +4674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19192240-9ddc-4886-b94c-88e877908c90")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -4251,7 +4724,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4337,7 +4810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e62d6b-9530-46dc-96ba-65d84bff142c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 129.54 118.11 0)
 			(effects
 				(font
@@ -4387,7 +4860,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4464,74 +4937,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Jack-DC")
-		(at 34.29 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d6e9526-2b36-4517-b316-c1916c7041fd")
-		(property "Reference" "J1"
-			(at 34.29 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC-005-2.5A-2.0"
-			(at 34.29 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Parts:BARREL_JACK_HORIZONTAL"
-			(at 35.56 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 34.29 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8bcfcf2-09cd-4357-aea8-56e67db2e492")
-		)
-		(pin "2"
-			(uuid "ce0ef5d9-e55d-4581-ad1a-bcff7d79d7d7")
-		)
-		(instances
-			(project "SimpleCodec"
-				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 227.33 43.18 0)
 		(unit 1)
@@ -4541,7 +4946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f900815-669e-4218-a5c5-9b940dedfbea")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 227.33 46.99 0)
 			(effects
 				(font
@@ -4591,7 +4996,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4607,7 +5012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "311373e0-f0fb-4c5b-8e42-d6fb3b3d2c32")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 180.34 118.11 0)
 			(effects
 				(font
@@ -4657,7 +5062,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4812,7 +5217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d4f6d78-aa02-45b0-bd87-6ec4998e31ee")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 27.94 123.19 0)
 			(effects
 				(font
@@ -4862,7 +5267,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4964,7 +5369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437321a3-6ebd-4603-8491-0e25693e741c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 44.45 82.55 0)
 			(effects
 				(font
@@ -5014,7 +5419,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5029,7 +5434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44f9e127-3ff5-4606-a1a1-0e9a30000a28")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 105.41 52.07 0)
 			(effects
 				(font
@@ -5079,7 +5484,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5230,7 +5635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c567f2d-19bb-4e4b-a708-3caef519e9b9")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 243.84 114.3 0)
 			(effects
 				(font
@@ -5280,7 +5685,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "618ebd10-f8cf-4833-9dbe-1efa12080628")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 48.26 123.19 0)
 			(effects
 				(font
@@ -5410,7 +5815,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a97836f-da3f-4174-889f-42eb3e84b570")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 179.07 52.07 0)
 			(effects
 				(font
@@ -5476,7 +5881,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5491,7 +5896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b87eb2c-c424-4af3-ad21-5e685d2c66fa")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 33.02 123.19 0)
 			(effects
 				(font
@@ -5541,7 +5946,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5627,7 +6032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd7ea85-bb04-42fa-88d9-0eff1d225e79")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -5677,7 +6082,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5763,7 +6168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7121f771-81f1-4ad1-bfae-6f8fb6224f22")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 224.79 60.9599 0)
 			(effects
 				(font
@@ -5817,7 +6222,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5918,7 +6323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76870187-45e0-4881-ad7c-5c1c3b5bbb06")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 43.18 123.19 0)
 			(effects
 				(font
@@ -5968,7 +6373,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5984,7 +6389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76a2125b-ffda-4092-beb7-d46a4ae840e3")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 88.9 109.2199 0)
 			(effects
 				(font
@@ -6038,7 +6443,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6054,7 +6459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a17e837-2869-49c4-9ae1-2542fd0c07c6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 217.17 74.93 0)
 			(effects
 				(font
@@ -6104,7 +6509,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6119,7 +6524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a85c5e0-5d59-4804-ad60-14dc5af7c2b2")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 135.89 52.07 0)
 			(effects
 				(font
@@ -6169,7 +6574,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6254,7 +6659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94250881-9edb-4c8e-9349-a29018d61bb9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -6304,7 +6709,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6666,7 +7071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2c0cb72-fd85-42c3-9574-b012c26ef73a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -6716,7 +7121,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6802,7 +7207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38a6936-31b5-44ad-9891-1089cd187783")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -6852,7 +7257,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7211,7 +7616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2f5fe8e-338a-49fe-a8e8-b719a3e625b1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 46.99 52.07 0)
 			(effects
 				(font
@@ -7261,7 +7666,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7277,7 +7682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3bb7abb-26cc-419a-a0ee-a39823917a9c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 227.33 74.93 0)
 			(effects
 				(font
@@ -7327,7 +7732,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7343,7 +7748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e638ab4d-de39-4da3-ae57-19d1a23a3968")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 148.59 82.55 0)
 			(effects
 				(font
@@ -7393,7 +7798,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7409,7 +7814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6f895d8-b739-4f87-8f42-f55b83be331a")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 64.77 66.0399 0)
 			(effects
 				(font
@@ -7463,7 +7868,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7544,7 +7949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ead6757f-0147-4e3f-8646-56771c0dd84e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 243.84 142.24 0)
 			(effects
 				(font
@@ -7594,7 +7999,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7684,6 +8089,110 @@
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
 					(reference "U3")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Parts:PEDAL_COMBO_TOP")
+		(at 34.29 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef1e860e-2ac6-4a84-b661-d1b99a5694fb")
+		(property "Reference" "X1"
+			(at 34.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEDAL_COMBO_TOP"
+			(at 34.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Parts:PEDAL_COMBO_TOP"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SI"
+			(uuid "3fab7737-c0e3-466a-a0c2-e17ff54148ce")
+		)
+		(pin "TNO"
+			(uuid "54ce5685-ed03-40eb-964c-f11eb68aedbb")
+		)
+		(pin "RNO"
+			(uuid "5fc02b3c-534e-44dc-99d3-6fd02485a684")
+		)
+		(pin "2"
+			(uuid "5829cb51-5fb4-4cdd-b900-e6576b46dbea")
+		)
+		(pin "SO"
+			(uuid "ce0425f9-adc8-44ae-b0f4-a8c84a9412ae")
+		)
+		(pin "TO"
+			(uuid "0833c624-60af-4e49-b5e0-192d57f4cf7e")
+		)
+		(pin "RI"
+			(uuid "31639571-8cd1-47cc-9511-d37f2df92990")
+		)
+		(pin "TNI"
+			(uuid "ef9342a1-1efa-4b2e-a69f-b4c1f1be2e01")
+		)
+		(pin "1"
+			(uuid "88ed8d8d-dfc6-444d-b379-c6eb109a5ab1")
+		)
+		(pin "SNO"
+			(uuid "1618ac60-1c1e-4015-99c9-aa9af1428111")
+		)
+		(pin "RO"
+			(uuid "e2f29ef2-4b2c-4a5c-84db-97fdda057680")
+		)
+		(pin "SNI"
+			(uuid "6990ca57-c18b-4324-a7d1-f20d9f356c7a")
+		)
+		(pin "TI"
+			(uuid "4c422463-c7fd-42fa-89a9-98ef5f915e2e")
+		)
+		(pin "RNI"
+			(uuid "13142330-16e1-473f-88dd-bf90f6e33041")
+		)
+		(instances
+			(project "SimpleCodec"
+				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
+					(reference "X1")
+					(unit 1)
 				)
 			)
 		)
@@ -7903,7 +8412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f76646dd-c005-4889-b6fc-b5403463fe81")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 53.34 123.19 0)
 			(effects
 				(font
@@ -7953,7 +8462,7 @@
 		(instances
 			(project "SimpleCodec"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
