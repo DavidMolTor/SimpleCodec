@@ -509,85 +509,54 @@
       {
         "clearance": 0.2,
         "line_style": 0,
-        "name": "+3V3A",
-        "pcb_color": "rgb(194, 0, 0)",
-        "priority": 1,
-        "schematic_color": "rgb(194, 0, 0)",
-        "track_width": 0.6,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "line_style": 0,
-        "name": "+3V3D",
-        "pcb_color": "rgb(221, 133, 0)",
-        "priority": 2,
-        "schematic_color": "rgb(221, 133, 0)",
-        "track_width": 0.6,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "+5V",
-        "pcb_color": "rgb(221, 133, 0)",
-        "priority": 0,
-        "schematic_color": "rgb(221, 133, 0)",
-        "track_width": 0.6,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "line_style": 0,
         "name": "AUDIO",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 6,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 0)",
         "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
-        "name": "CONFIG",
+        "name": "I2C",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 8,
+        "priority": 5,
         "schematic_color": "rgb(132, 132, 0)"
       },
       {
         "clearance": 0.2,
         "name": "I2S",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 7,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.2,
         "via_diameter": 0.5,
         "via_drill": 0.2
       },
       {
-        "name": "PWR",
+        "line_style": 0,
+        "name": "PWRA",
         "pcb_color": "rgb(221, 133, 0)",
-        "priority": 3,
+        "priority": 0,
         "schematic_color": "rgb(221, 133, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "PWRD",
+        "pcb_color": "rgb(194, 0, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 0)"
       },
       {
         "clearance": 0.2,
         "line_style": 0,
         "name": "PWRGND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 5,
+        "priority": 2,
         "schematic_color": "rgb(132, 132, 132)",
         "track_width": 0.6,
         "via_diameter": 0.6,
         "via_drill": 0.3
-      },
-      {
-        "line_style": 0,
-        "name": "VBIAS",
-        "pcb_color": "rgb(194, 0, 0)",
-        "priority": 4,
-        "schematic_color": "rgb(194, 0, 0)"
       }
     ],
     "meta": {
@@ -597,80 +566,40 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "+5V",
-        "pattern": "+5V*"
+        "netclass": "PWRD",
+        "pattern": "+VDC*"
       },
       {
-        "netclass": "+3V3A",
-        "pattern": "+3V3A*"
+        "netclass": "PWRD",
+        "pattern": "+VCC"
       },
       {
-        "netclass": "+3V3D",
+        "netclass": "PWRA",
+        "pattern": "+5VA*"
+      },
+      {
+        "netclass": "PWRD",
         "pattern": "+3V3D*"
+      },
+      {
+        "netclass": "PWRD",
+        "pattern": "+VSYS*"
+      },
+      {
+        "netclass": "PWRA",
+        "pattern": "+VBIAS*"
+      },
+      {
+        "netclass": "PWRA",
+        "pattern": "/Power/+VBIAS*"
+      },
+      {
+        "netclass": "PWRA",
+        "pattern": "+VCC_FILT*"
       },
       {
         "netclass": "PWRGND",
         "pattern": "GND"
-      },
-      {
-        "netclass": "I2S",
-        "pattern": "I2S*"
-      },
-      {
-        "netclass": "CONFIG",
-        "pattern": "MD*"
-      },
-      {
-        "netclass": "VBIAS",
-        "pattern": "VBIAS*"
-      },
-      {
-        "netclass": "VBIAS",
-        "pattern": "/Power/VBIAS*"
-      },
-      {
-        "netclass": "CONFIG",
-        "pattern": "/Power/GATE_EN"
-      },
-      {
-        "netclass": "CONFIG",
-        "pattern": "3V3A_EN"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "AUDIO",
-        "pattern": "/Codec/IN*"
-      },
-      {
-        "netclass": "AUDIO",
-        "pattern": "CODEC*"
-      },
-      {
-        "netclass": "CONFIG",
-        "pattern": "CLK_INT"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/Codec/VREF"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/Codec/DREG"
-      },
-      {
-        "netclass": "AUDIO",
-        "pattern": "/Buffers_In/AUDIO*"
-      },
-      {
-        "netclass": "AUDIO",
-        "pattern": "/Buffers_Out/AUDIO*"
-      },
-      {
-        "netclass": "AUDIO",
-        "pattern": "Net*"
       }
     ]
   },
