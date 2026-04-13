@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.02,
+          "width": 1.78
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -258,7 +258,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2057400|800100|f93ddbe4-88a9-4947-a32a-26e5dab9d69f|43e484e8-22b9-4561-9598-b9714b83811d|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a",
+        ""
+      ],
+      [
+        "pin_to_pin|1854200|342900|1984df50-159d-42e1-87e8-c92dc2a24007|c43de5d2-afd7-4dd8-ab42-663dbbc6f08c|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -508,6 +517,16 @@
       },
       {
         "clearance": 0.2,
+        "name": "ADC",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.2,
         "line_style": 0,
         "name": "AUDIO",
         "pcb_color": "rgb(0, 132, 0)",
@@ -518,34 +537,56 @@
         "via_drill": 0.3
       },
       {
-        "name": "I2C",
+        "clearance": 0.2,
+        "name": "GPIO",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 5,
-        "schematic_color": "rgb(132, 132, 0)"
+        "priority": 6,
+        "schematic_color": "rgb(132, 132, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.2,
-        "name": "I2S",
+        "name": "I2C",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.2,
         "via_diameter": 0.5,
         "via_drill": 0.2
       },
       {
+        "clearance": 0.2,
+        "name": "I2S",
+        "pcb_color": "rgb(0, 0, 194)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.2,
         "line_style": 0,
         "name": "PWRA",
         "pcb_color": "rgb(221, 133, 0)",
         "priority": 0,
-        "schematic_color": "rgb(221, 133, 0)"
+        "schematic_color": "rgb(221, 133, 0)",
+        "track_width": 0.6,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
+        "clearance": 0.2,
         "line_style": 0,
         "name": "PWRD",
         "pcb_color": "rgb(194, 0, 0)",
         "priority": 1,
-        "schematic_color": "rgb(194, 0, 0)"
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.6,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.2,
@@ -632,6 +673,18 @@
       {
         "netclass": "AUDIO",
         "pattern": "/Buffers_Out/AUDIO*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/GPIO*"
+      },
+      {
+        "netclass": "ADC",
+        "pattern": "/ADC*"
+      },
+      {
+        "netclass": "ADC",
+        "pattern": "/AGND"
       }
     ]
   },
