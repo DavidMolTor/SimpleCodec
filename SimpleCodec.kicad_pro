@@ -689,6 +689,22 @@
       {
         "netclass": "ADC",
         "pattern": "/AGND"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/Buffers_In/FILT*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/Buffers_In/OP*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/Buffers_Out/FILT*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/Buffers_Out/OP*"
       }
     ]
   },
