@@ -278,12 +278,12 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|1803400|1054100|ba135703-37b6-4983-b291-36f59add4983|0494e65f-65ee-47a7-9db1-97ece572dd52|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a",
-        "Only one single GND plane acoording to everyone if there is no true isolation between them."
+        "pin_to_pin|1803400|1104900|ba135703-37b6-4983-b291-36f59add4983|0494e65f-65ee-47a7-9db1-97ece572dd52|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a",
+        ""
       ],
       [
-        "pin_to_pin|1854200|317500|1984df50-159d-42e1-87e8-c92dc2a24007|c43de5d2-afd7-4dd8-ab42-663dbbc6f08c|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58",
-        "Disabled PICO 3V3 regulator. Supplied via the 3V3 pin from digital supply LDO."
+        "pin_to_pin|1854200|368300|1984df50-159d-42e1-87e8-c92dc2a24007|c43de5d2-afd7-4dd8-ab42-663dbbc6f08c|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a|/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58",
+        ""
       ]
     ],
     "meta": {
@@ -879,7 +879,7 @@
         "uuid": "4cbf131b-42e8-4a05-beea-68c6d66cdb1a"
       }
     ],
-    "used_designators": "H4-8",
+    "used_designators": "H4-10",
     "variants": []
   },
   "sheets": [
