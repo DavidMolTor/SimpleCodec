@@ -4837,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "850"
 			(at 184.15 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5227,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "850"
 			(at 194.31 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5938,7 +5938,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "850"
 			(at 129.54 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
