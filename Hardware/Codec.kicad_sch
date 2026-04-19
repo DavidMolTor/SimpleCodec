@@ -1165,6 +1165,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VCOM capacitance\n1.1u"
+		(exclude_from_sim no)
+		(at 168.148 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c0183df-72ae-4987-983b-c80d027d7056")
+	)
 	(text_box "AUDIO CODEC"
 		(exclude_from_sim no)
 		(at 76.2 35.56 0)
@@ -4870,7 +4880,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 176.53 86.3601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +5204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 176.53 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
