@@ -3321,7 +3321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10ec39b2-60d1-44ca-a704-c8e106b7ca66")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3381,7 +3381,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "183eaf62-6589-4829-8da9-9d9961b7ff62")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 139.7 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,7 +3462,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3479,7 +3479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19192240-9ddc-4886-b94c-88e877908c90")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 80.01 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3539,7 +3539,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f55c599-56e1-4c00-be5e-c44244748ede")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 209.55 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,7 +3621,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3639,7 +3639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e62d6b-9530-46dc-96ba-65d84bff142c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 175.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3699,7 +3699,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3717,7 +3717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "292dc3f2-3800-4618-83db-60ddb04cf89a")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 146.05 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,7 +3781,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3799,7 +3799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "311373e0-f0fb-4c5b-8e42-d6fb3b3d2c32")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 226.06 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3859,7 +3859,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3877,7 +3877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "318b5d6f-adf9-4d38-a0c2-060426c4dc7f")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 199.39 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,7 +3941,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3958,7 +3958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d4f6d78-aa02-45b0-bd87-6ec4998e31ee")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 69.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4018,7 +4018,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437321a3-6ebd-4603-8491-0e25693e741c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 90.17 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4096,7 +4096,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44f9e127-3ff5-4606-a1a1-0e9a30000a28")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 135.89 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4173,7 +4173,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4191,7 +4191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45b90aca-ba9b-4e2d-ae7b-4cb3c30dcf26")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 196.85 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4255,7 +4255,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4349,7 +4349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b87eb2c-c424-4af3-ad21-5e685d2c66fa")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 74.93 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4409,7 +4409,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4427,7 +4427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bc4dcef-6ddc-473f-b0e8-74a560f1b88c")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 171.45 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,7 +4491,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4509,7 +4509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd7ea85-bb04-42fa-88d9-0eff1d225e79")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 228.6 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4569,7 +4569,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7135b94b-7a10-486f-a1dc-9cad60a0ba8f")
-		(property "Reference" "C39"
+		(property "Reference" "C7"
 			(at 173.99 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4651,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C39")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4668,7 +4668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76870187-45e0-4881-ad7c-5c1c3b5bbb06")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 85.09 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4728,7 +4728,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4827,7 +4827,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c9c9e47-2c9b-4b7d-bed8-4cd2b1086da8")
-		(property "Reference" "FB3"
+		(property "Reference" "FB2"
 			(at 184.15 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4889,7 +4889,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "FB3")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -4906,7 +4906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85f71405-6100-4b88-b042-9de97ca1a1be")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR026"
 			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4966,7 +4966,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR062")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4983,7 +4983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94250881-9edb-4c8e-9349-a29018d61bb9")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5043,7 +5043,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5140,7 +5140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e6dd471-9914-424b-a833-36bdba228a46")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR018"
 			(at 95.25 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5200,7 +5200,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR063")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5217,7 +5217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3f808cf-4907-4108-add4-c378b6916f55")
-		(property "Reference" "FB2"
+		(property "Reference" "FB3"
 			(at 194.31 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,7 +5279,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "FB2")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -5297,7 +5297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a68504b0-cf93-46eb-a138-a36330a02f66")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 133.35 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5361,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5379,7 +5379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aab70f5d-a8b8-47ec-91e6-85760c629d32")
-		(property "Reference" "C40"
+		(property "Reference" "C9"
 			(at 186.69 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5443,7 +5443,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C40")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5537,7 +5537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2c0cb72-fd85-42c3-9574-b012c26ef73a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 124.46 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5597,7 +5597,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5615,7 +5615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38a6936-31b5-44ad-9891-1089cd187783")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 162.56 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5675,7 +5675,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5774,7 +5774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be796511-0db1-4116-ab0e-1c37658fd29d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 177.8 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5834,7 +5834,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf056d10-0940-4a96-bc5b-5cefcf8a146c")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 184.15 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +6149,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf44723b-242f-43c0-ae7b-d3f6b574b958")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 224.79 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6231,7 +6231,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6331,7 +6331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2f5fe8e-338a-49fe-a8e8-b719a3e625b1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 95.25 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6391,7 +6391,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6409,7 +6409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e638ab4d-de39-4da3-ae57-19d1a23a3968")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 215.9 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6469,7 +6469,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6920,7 +6920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f76646dd-c005-4889-b6fc-b5403463fe81")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 90.17 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6980,7 +6980,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6998,7 +6998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff0beff8-822d-44b1-9e05-323c646c6b1f")
-		(property "Reference" "C42"
+		(property "Reference" "C13"
 			(at 222.25 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7062,7 +7062,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C42")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7080,7 +7080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff5465c1-ef2d-4676-a227-fb44dbe0067b")
-		(property "Reference" "C41"
+		(property "Reference" "C2"
 			(at 120.65 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7144,7 +7144,7 @@
 		(instances
 			(project "PicoFX"
 				(path "/4cbf131b-42e8-4a05-beea-68c6d66cdb1a/266eebaa-f067-4f1b-a54e-f61e0e7aca58"
-					(reference "C41")
+					(reference "C2")
 					(unit 1)
 				)
 			)
