@@ -18,7 +18,7 @@ It is designed to work with 9V intput voltage. It also has a set of headers for 
 
  - Clear separation between digital and analog sections.
 
- - Steareo input and output.
+ - Stereo input and output.
 
  - Clean voltage delivery.
 
